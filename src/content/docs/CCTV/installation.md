@@ -1,5 +1,5 @@
 ---
-title: Example Guide 666
+title: CCTV installtion
 description: A guide in my new Starlight docs site.
 ---
 
