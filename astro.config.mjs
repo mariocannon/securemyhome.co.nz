@@ -8,24 +8,27 @@ export default defineConfig({
 		starlight({
 			title: 'Security Docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://secure-works.co.nz',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'How to use our Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
+
+					
+				},
+				{
+					label: 'Alarms',
+					autogenerate: { directory: 'Alarms' },
 				},
 				{
 					label: 'CCTV',
 					autogenerate: { directory: 'CCTV' },
 				},
-				{
-					label: 'Alarms',
-					autogenerate: { directory: 'CCTV' },
-				},
+				
 				
 			],
 		}),
