@@ -1,11 +1,18 @@
 ---
-title: Example Guide 666
+title: How to use our Security Wiki
 description: A guide in my new Starlight docs site.
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+This is a free wiki filled with tips , tricks and manuals for alarms and CCTV systems.
 
-## Further reading
+We have guides on trouble shooting diffrent faults, installing equipment and a bunch of random tutroials on how to do things.
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+### Menu
+The left hand is our main menu. Everything has been placed into folders under the relevant content.
+
+### Search
+The search bar is located up the top. start typing in your questiopn and relevant documents will start to populate.
+
+### Right hand menu
+This right hand menu will give you and overview of the section on the page. Click any of the sections to be instantly taken to it.
+#### If you have found this helpful please consider donating 
