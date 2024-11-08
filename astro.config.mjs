@@ -13,6 +13,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'How to use our Guides',
+					collapsed: true,
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
@@ -22,10 +23,12 @@ export default defineConfig({
 				},
 				{
 					label: 'Alarms',
+					collapsed: true,
 					autogenerate: { directory: 'Alarms' },
 				},
 				{
 					label: 'CCTV',
+					collapsed: true,
 					autogenerate: { directory: 'CCTV' },
 				},
 				
