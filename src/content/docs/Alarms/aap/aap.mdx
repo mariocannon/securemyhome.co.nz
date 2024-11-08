@@ -3,6 +3,7 @@ title: How to use your alarm system.
 description: A guide in my new Starlight docs site.
 ---
 import { Steps } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
 
 <Steps>
 
@@ -15,3 +16,12 @@ import { Steps } from '@astrojs/starlight/components';
 2. Wrap `<Steps>` around your ordered list items.
 
 </Steps>
+
+<LinkButton
+  href="https://docs.astro.build"
+  variant="secondary"
+  icon="external"
+  iconPlacement="start"
+>
+  Download manual 
+</LinkButton>
