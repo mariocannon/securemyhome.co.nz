@@ -1,0 +1,62 @@
+---
+
+---
+
+# ESL-2 Troubleshooting Guide
+
+## PIR Wiring
+
+- **Single EOL Wiring**:
+  - 2K2: Red, Red, Red, Gold
+  - 4K7: Yellow, Violet, Red, Gold
+  - 8K2: Grey, Red, Red, Gold
+
+## Zone Types and Voltage Ranges
+
+- **Type 3**: 2K2 EOL (Single Zone, Normally Closed)
+  - Alarm: 0.0 - 0.70V
+  - Sealed: 0.70 - 1.10V
+  - Alarmed Zone: 1.10 - 5.00V
+
+- **Type 12**: Single Zone with Tamper
+  - Tamper: 0.0 - 0.70V
+  - Sealed: 0.70 - 1.40V
+  - Alarm: 1.40 - 2.30V
+
+- **Type 15**: Zone Doubling without Tampers (Two Zones)
+  - Low Zone Alarm: 1.10 - 1.90V
+  - High Zone Alarm: 2.50 - 3.30V
+
+- **Type 14**: Zone Doubling with Tampers (Two Zones)
+  - Low Zone Tamper: 0.0 - 0.70V
+  - Sealed: 0.70 - 1.40V
+  - High Zone Alarm: 2.30 - 2.80V
+
+## Common Troubleshooting Steps
+
+1. **Voltage Testing**:
+   - Measure 12-14V on PIR terminals.
+   - Use multi-meter set to DC volts.
+
+2. **Wireless Troubleshooting (RX-16)**:
+   - Check DIP switches for correct frequency settings (304MHz, 433MHz, 915MHz).
+   - Avoid interference from nearby wireless devices or metal enclosures.
+
+3. **Power Issues**:
+   - Ensure 10.00V - 14.00V on power terminals.
+   - If no power, check for cable faults or blown fuses.
+
+4. **Reset Procedures**:
+   - For lost installer code: Power down, open tamper, power up, and enter Installer Mode.
+   - For lost user code: Power down, short RST pins, reset Master Code to 123.
+
+## Siren Wiring
+
+- **Independent Siren and Strobe Wiring**: Connect per designated terminals for separate control.
+- **LED Indicator Settings**:
+   - Flash when disarmed: `P 36 E 3 E (Option 2 ON)`
+   - Armed LED on: `P 47 E 1 E 3 E`
+
+---
+
+This format provides a clear, concise guide for troubleshooting the ESL-2 system, focusing on essential wiring, voltage ranges, and troubleshooting actions.
